@@ -1,7 +1,9 @@
 
 $(window).on('resize', function(){
-  $(".carousel-item img").height($(window).height())
+  $(".carousel-item").height($(window).height())
+
 });
 $(window).on('load', function(){
-  $(".carousel-item img").height($(window).height())
+  $(".carousel-item").height($(window).height())
+  $('.focuspoint').focusPoint();
 });
