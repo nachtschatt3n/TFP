@@ -96,7 +96,7 @@ body {
 
 
 .image_col {
-  height:800px;
+  /*height:800px;*/
   background-size: cover;
   filter: grayscale(100%)
 }
