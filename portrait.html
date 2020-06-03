@@ -17,6 +17,7 @@
 
     <!-- Custom styles for this site -->
     <link href="css/global.css" rel="stylesheet">
+    <link href="css/jquery.focuspoint.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
     <link href="css/classic_concerts_photography.css" rel="stylesheet">
@@ -45,21 +46,21 @@
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active focuspoint"  data-focus-y="0.001">
             <img src="img/portrait/20200125_René Gewaltprävention_TFP6401-Bearbeitet_LowRes.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item focuspoint" data-focus-y="0.001" >
             <img src="img/portrait/_D8N8175@0,33x.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item focuspoint" data-focus-y="0.001" >
             <img src="img/portrait/_D8N8186-Wiederhergestellt@0,33x.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
@@ -82,6 +83,9 @@
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="js/boostrap_4.5/bootstrap.js"></script>
+  <script src="js/jquery.focuspoint.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/portrait.js"></script>
 
   </body>
 </html>
