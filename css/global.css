@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #fff;
 }
 
 body {
@@ -35,28 +35,36 @@ body {
   display: flex;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  background-size: cover;
 }
 
-.cover-container {
-  max-width: 50em;
+.container-fluid{
+  padding-right:0;
+  padding-left:0;
 }
-
 
 /*
  * Header
  */
-.masthead {
-  margin-bottom: 2rem;
+.navigation {
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 10;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  top:0px;
 }
 
 .masthead-brand {
-  margin-bottom: 0;
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
 }
 
+.nav-masthead, .masthead-brand{
+  margin: 2em;
+}
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -75,7 +83,6 @@ body {
 
 .nav-masthead .active {
   color: #fff;
-  border-bottom-color: #fff;
 }
 
 @media (min-width: 48em) {
@@ -87,6 +94,26 @@ body {
   }
 }
 
+
+.image_col {
+  height:800px;
+  background-size: cover;
+  filter: grayscale(100%)
+}
+.image_col:hover {
+filter: grayscale(0%)
+}
+
+.index-page h2{
+  padding-top: 20%;
+  padding-left: 5px;
+
+}
+
+.carousel-item {
+  max-height: 800px;
+  max-width: 100%;
+}
 
 /*
  * Cover
