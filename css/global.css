@@ -58,10 +58,24 @@ body {
 }
 
 .masthead-brand {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Lato';
   font-size: 1.5em;
 }
 
+.maintitle {
+  font-family: 'Lato';
+  font-weight: lighter;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+.subtitle {
+  font-family: 'Lato';
+  font-weight: lighter;
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+}
 .nav-masthead, .masthead-brand{
   margin: 2em;
 }
