@@ -42,6 +42,17 @@ body {
   padding-left:0;
 }
 
+
+/*
+* Font Styles
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  text-shadow: none;
+}
+
 /*
  * Header
  */
@@ -118,10 +129,8 @@ body {
 filter: grayscale(0%)
 }
 
-.index-page h2{
+.std-padding-top{
   padding-top: 20%;
-  padding-left: 5px;
-
 }
 
 .carousel-item {
