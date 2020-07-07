@@ -1,0 +1,76 @@
+
+
+
+BildschirmHöhe 
+bBreite
+
+BildHöhe
+BildBreite
+
+
+600x300 Horizontal 
+300x300 Quardrat 
+600x300 Portät 
+
+
+
+
+
+1. Ist BildBreite > Bildhöhe ? = Horizontal 
+    BildBreite = Bildhöhe = Quardrat
+    BildBreite < Bildhöhe = Portät
+
+BildBreite / Bildhöhe = Seitenverhältniss 
+^
+
+600/300 = 2
+300/300 = 1
+300/600 = 0.5
+
+wenn  SeitenverhältnissBild < 1 dann Portät
+wenn  SeitenverhältnissBild = 1 dann Quardrat
+wenn  SeitenverhältnissBild > 1 dann Horizontal
+
+wenn  SeitenverhältnissAnzeigeFläche < 1 dann Portät
+wenn  SeitenverhältnissAnzeigeFläche = 1 dann Quardrat
+wenn  SeitenverhältnissAnzeigeFläche > 1 dann Horizontal
+
+
+
+wenn SeitenverhältnissAnzeigeFläche=Portät und SeitenverhältnissBild=Portät dann einfache Skalierung
+wenn SeitenverhältnissAnzeigeFläche=Portät und SeitenverhältnissBild=Quardrat dann 
+    Maximale Höhe und Skalierung nach Horizontal
+    500x500 Bild
+    800x400 AnzeigeFläche
+    Neues Bild H 400 x 400 (Breite = Höhe)
+
+wenn SeitenverhältnissAnzeigeFläche=Portät und SeitenverhältnissBild=Horizontal dann 
+    Maximale Höhe und Skalierung nach Horizontal
+    1200x600 Bild 2 
+    400x800 AnzeigeFläche
+    Neues Bild H 400x200  (BildBreite = SeitenverhältnissBild * Bildhöhe)    
+                          Bildhöhe = NeueBildBreite / SeitenverhältnissBild
+
+                                    400 / 2 = 20
+    
+
+wenn SeitenverhältnissAnzeigeFläche=Quardrat und SeitenverhältnissBild=Quardrat dann einfache Skalierung
+
+
+
+wenn SeitenverhältnissAnzeigeFläche=Horizontal und SeitenverhältnissBild=Horizontal dann einfache Skalierung
+wenn SeitenverhältnissAnzeigeFläche=Horizontal und SeitenverhältnissBild=Portät dann 
+    Maximale Breite und Skalierung nach Höhe
+    600x1200 Bild 2 
+    800x400 AnzeigeFläche
+    Neues Bild 200 x400   (BildBreite = SeitenverhältnissBild * NeueBildhöhe)    
+                          Bildhöhe = BildBreite / SeitenverhältnissBild
+
+                                   400*0.5 = 200
+
+
+
+
+
+1. is BildHöhe > BildschirmHöhe
+
